@@ -29,7 +29,7 @@ public class Main {
         end =System.currentTimeMillis();
         System.out.println("Time Linkedlist" + (start-end) + "ms");
 
-        System.out.println(arrayList.equals(linkedList)); // сравнение элементов класса
+        System.out.println(arrayList.equals(linkedList)); // сравнение классов
 
 
 
