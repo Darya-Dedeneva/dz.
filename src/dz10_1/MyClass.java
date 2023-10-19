@@ -1,4 +1,4 @@
-package dz10;
+package dz10_1;
 
 import java.util.Objects;
 

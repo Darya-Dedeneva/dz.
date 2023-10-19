@@ -1,12 +1,10 @@
-package dz10;
+package dz10_1;
 
 /*
 
 Замерить время добавления, поиска и удаления объектов из коллекции в LinkedList, ArrayList, TreeSet, HashSet.
 Сравнить время и сделать вывод о том, в каких условиях какая коллекция работает быстрее.
  */
-
-import dz10.MyClass;
 
 import java.util.*;
 
