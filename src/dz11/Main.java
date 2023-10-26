@@ -1,8 +1,13 @@
 package dz11;
 
+
+
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.Map;
+
+
+
+
 /*
 Д/3 Создать коллекцию hashmap и метод генерации уникальных String идентификаторов.
 При генерации нового элемента проверяйте наличие элемента в коллекции с таким id.
@@ -18,13 +23,16 @@ public class Main {
     public static void main(String[] args) {
 
         HashMap<Integer, String> map = new HashMap<Integer, String>();
-        map.put(1,"Dasha");
-        map.put(2,"Valery");
-        map.put(3,"Svetlana");
+        map.put(1, "Dasha");
+        map.put(2, "Valery");
+        map.put(3, "Svetlana");
+
 
         System.out.println(map.get(1));
         System.out.println(map.get(2));
         System.out.println(map.get(3));
+
+        
             /*
         boolean containsKey = HashMap.containsKey("Dasha", 1);
         System.out.println("map.put():" + containsKey);*/
@@ -37,16 +45,20 @@ public class Main {
         System.out.println(map.containsValue("dasha")); /* containsValue -
         проверяет содержания значения */
 
-        for (Integer integer: map.keySet()){
+       for (Integer integer : map.keySet()) {
             System.out.println("key = " + integer); //получение множества всех ключей//
-            for (int i = 0; i< 10000; i++){
+            for (int i = 0; i < 10000; i++) {
                 System.out.println(map);
+
+
+
+
             }
-
         }
-
-
-
-
     }
+
+
 }
+
+
+           
