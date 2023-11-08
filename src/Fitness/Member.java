@@ -1,6 +1,6 @@
-package Project1;
+package Fitness;
 
-public class Member { //родительский класс
+public class Member  { //родительский класс
     private char memberType; // тип посетителя
     private int memberID; // id посетителя
     private String name; // имя посетителя
@@ -49,4 +49,7 @@ public class Member { //родительский класс
     public String toString() {
         return super.toString(); //возвращает строку с представлением объекта
     }
+
+
+
 }

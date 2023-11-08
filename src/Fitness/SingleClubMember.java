@@ -1,4 +1,4 @@
-package Project1;
+package Fitness;
 
 public class SingleClubMember extends Member {
     private int club; // клуб

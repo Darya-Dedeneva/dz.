@@ -1,4 +1,4 @@
-package Project1;
+package Fitness;
 
 public class MultiClubMember extends Member{
     private int membershipPoints;
